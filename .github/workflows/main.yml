@@ -22,3 +22,7 @@ jobs:
     - name: Test with flake8 and django tests
       run: |
         python -m flake8
+
+    - name: Сovered with tests
+      run: |
+        python manage.py test
